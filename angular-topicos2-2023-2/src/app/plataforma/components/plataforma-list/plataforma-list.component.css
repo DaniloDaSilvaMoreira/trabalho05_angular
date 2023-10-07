@@ -1,0 +1,69 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.demo-table {
+  width: 80%;
+}
+
+/* Estilos para a div que envolve o campo de entrada e o botão */
+.input-container {
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Alinhar elementos à esquerda verticalmente */
+  width: 80%;
+}
+
+.mat-column-id-column {
+  width: 32px;
+  border-right: 1px solid currentColor;
+  padding-right: 24px;
+  text-align: center;
+}
+
+.input-field {
+  flex: 1;
+  margin-right: 8px;
+}
+
+.mat-column-acoes-column {
+
+  text-align: center;
+}
+
+.mat-column-nome-column {
+  padding-left: 16px;
+  font-size: 20px;
+}
+
+.mat-column-sigla-column {
+  font-style: italic;
+}
+.search-button {
+  width: 54px;
+  height: 54px;
+  align-self: flex-start; /* Alinhar o botão verticalmente ao topo */
+}
+
+mat-icon {
+  font-size: 24px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.toolbar-title {
+  flex: 1;
+  text-align: center;
+}
+
+
